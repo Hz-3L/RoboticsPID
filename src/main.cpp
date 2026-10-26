@@ -107,7 +107,7 @@ void competition_initialize() {}
  */
 void autonomous() {
 	// Example PID movement routines (ALSO MORE STUFF NEED TO KNOW)
-	chassis.setpose(0, 0, 0); // Set the starting pos to x:0 y:0 heading:0deg
+	chassis.setPose(0, 0, 0); // Set the starting pos to x:0 y:0 heading:0deg
 	chassis.moveToPoint(0, 24, 2000); // Drive forward 24 inches using PID
 	chassis.turnToHeading(90, 1000); // Turn to 90 degrees using PID
 }
